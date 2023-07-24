@@ -6,142 +6,135 @@
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-  <div class="app box-border h-full bg-white block xl:flex xl:w-full xl:h-1/3">
-    <div class="left-app w-full bg-bleuClair xl:w-1/3">
-      <section class="name bg-bleuFonce p-2  flex justify-center xl:grid">
-        <h1 class="first-name text-7xl text-white font-mono font-semibold ml-5 xl:m-4">Enzo</h1>
-        <h1 class="last-name text-7xl text-white font-mono font-semibold ml-5 xl:m-4">Chevalier</h1>
+  <div class="app box-border h-full bg-white block xl:flex xl:w-full xl:h-1/3 print:flex">
+    <div class="left-app w-full bg-bleuClair xl:w-1/3 print:w-2/5">
+      <section class="name bg-bleuFonce p-2  flex justify-center xl:grid print:grid print:pr-5">
+        <h1 class="first-name text-7xl text-white font-mono font-semibold ml-5 xl:m-4 print:text-5xl">Enzo</h1>
+        <h1 class="last-name text-7xl text-white font-mono font-semibold ml-5 xl:m-4 print:text-5xl">Chevalier</h1>
       </section>
       <section class="resume p-3">
-        <h1 class="resume-title font-mono m-5 text-xl flex justify-center xl:justify-start">Résumé</h1>
-        <p class="resume-text ml-5">Etudiant en licence informatique, je suis à la recherche d'un stage 
-          dans le domaine du web de 6 semaines minimum pour me permettre de finaliser mon année. Ainsi que
-          d'une alternance de 2 années pour un master en Cyber-Sécurité et développement logiciel.
+        <h1 class="resume-title font-mono m-5 text-xl flex justify-center xl:justify-start print:text-sm print:font-semibold print:justify-start">Résumé</h1>
+        <p class="resume-text ml-5 print:text-xs">Diplôme d'une licence informatique, je suis à la recherche 
+          d'une alternance de 2 années pour un master en Cybersécurité et développement logiciel en tant que développeur
+          Front-End, Back-End ou FullStack à partir de septembre. Pour un rythme de 2 jours en école (Lundi et mardi) et 
+          3 jours en entreprise (Mercredi, jeudi et vendredi).
         </p>
       </section>
       <section class="coordonne p-3">
-        <h1 class="coordonne-title font-mono m-5 text-xl flex justify-center xl:justify-start">Coordonnées</h1>
+        <h1 class="coordonne-title font-mono m-5 text-xl flex justify-center xl:justify-start print:text-sm print:font-semibold print:justify-start">Coordonnées</h1>
         <div class="flex pt-1.5 pb-1.5">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5 print:w-4 print:h-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
           </svg>        
-          <p class="adresse ml-2">111, rue pierre Hachin, 59160 Lomme</p>
+          <p class="adresse ml-2 print:text-xs">111, rue pierre Hachin, 59160 Lomme</p>
         </div>
         <div class="flex pt-1.5 pb-1.5">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5 print:w-4 print:h-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
           </svg>
-          <p class="telephone ml-2">0651045803</p>
+          <p class="telephone ml-2 print:text-xs">0651045803</p>
         </div>
         <div class="flex pt-1.5 pb-1.5">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5 print:w-4 print:h-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
           </svg>
-          <p class="mail-pro ml-2">enzo.chevalier@lacatholille.fr</p>
+          <a href="mailto:enzo.chevalier@lacatholille.fr" class="mail-pro ml-2 print:text-xs">enzo.chevalier@lacatholille.fr</a>
         </div>
         <div class="flex pt-1.5 pb-1.5">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-5 print:w-4 print:h-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
           </svg>
-          <p class="mail-perso ml-2">enzo20112002@gmail.com</p>
+          <a href="mailto:enzo20112002@gmail.com" class="mail-perso ml-2 print:text-xs">enzo20112002@gmail.com</a>
         </div>
       </section>
       <section class="competences p-3">
-        <h1 class="competence-title font-mono m-5 text-xl flex justify-center xl:justify-start">Compétences</h1>
-        <ul class="competences-list ml-5 list-disc">
+        <h1 class="competence-title font-mono m-5 text-xl flex justify-center xl:justify-start print:text-sm print:font-semibold print:justify-start">Compétences</h1>
+        <ul class="competences-list ml-5 list-disc print:text-xs">
           <li class="HTML ml-5 pt-1 pb-1">HTML</li>
           <li class="CSS ml-5 pt-1 pb-1">CSS</li>
-          <li class="VueJS ml-5 pt-1 pb-1">VueJS</li>
-          <li class="Symfony ml-5 pt-1 pb-1">Symfony</li>
+          <li class="PHP ml-5 pt-1 pb-1">PHP / Symfony</li>
+          <li class="Javascript ml-5 pt-1 pb-1">Javascript / VueJS</li>
+          <li class="C ml-5 pt-1 pb-1">C / C++ / C#</li>
+          <li class="Python ml-5 pt-1 pb-1">Python</li>
+          <li class="Java ml-5 pt-1 pb-1">Java</li>
           <li class="Gamemaker ml-5 pt-1 pb-1">Gamemaker (Drag & Drop)</li>
           <li class="Permis ml-5 pt-1 pb-1">Permis B (véhiculé)</li>
           <li class="TOEIC ml-5 pt-1 pb-1">Anglais Certification TOEIC B2 905/990</li>
         </ul>
       </section>
       <section class="hobby p-3">
-        <h1 class="hobby-title font-mono m-5 text-xl flex justify-center xl:justify-start">Loisirs</h1>
-        <p class="Jeux-videos ml-5">Jeux vidéos (FPS)</p>
-        <p class="Anime-Manga ml-5">Animes / Mangas</p>
+        <h1 class="hobby-title font-mono m-5 text-xl flex justify-center xl:justify-start print:pt-0 print:text-sm print:font-semibold print:justify-start">Loisirs</h1>
+        <p class="Jeux-videos ml-5 print:text-xs">Jeux vidéos (FPS)</p>
+        <p class="Anime-Manga ml-5 print:text-xs">Animes / Mangas</p>
       </section>
     </div>
-    <div class="right-app w-full bg-white">
+    <div class="right-app w-full bg-white print:w-full">
       <section class="university-projects p-3">
-        <h1 class="unviversity-projects-title font-mono m-5 text-3xl font-semibold flex justify-center xl:justify-start">Projets Universitaire</h1>
+        <h1 class="unviversity-projects-title font-mono m-5 text-3xl font-semibold flex justify-center xl:justify-start print:text-base print:justify-start">Projets Universitaire</h1>
         <article class="Projet-Pro-L3 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Site Symfony L3 premier/deuxième semestre, En groupe de 2</h3>
-          <p class="ml-5">
-            Principe du projet : Simuler sur une année entière  entre un "client" et nous-mêmes l'avancé d'un projet. 
-            Avec une réunion par mois le projet était de construire un site avec le framework 
-            Symfony qui a pour principes de permettre au professeur de poster des exercices, et 
-            aux élèves de les résoudre un peu comme Codingame.
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Site Symfony L3 premier/deuxième semestre, En groupe de 2</h3>
+          <p class="ml-5 print:text-xs">
+            - Principe du projet : Simuler l'avancé d'un projet sur une année entière entre un "client" et nous-mêmes 
+            au rythme d'une réunion par mois. Un projet de construction de site avec le framework Symfony. Ce site devait permettre 
+            au professeur de poster des exercices, et aux élèves de les résoudre inspiré de la plateforme <a href="https://www.codingame.com/start/" class="underline">Codingame</a>.
           </p>
         </article>
         <article class="Projet-VueJS-L3 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Site VueJS L3 deuxième semestre</h3>
-          <p class="ml-5">
-            Principe du projet : construction d'un site à l'aide du framework VueJS et d'une ou 
-            plusieurs API (au choix). J'ai choisi l'API du site MangaDex regroupant beaucoup de 
-            mangas pour en faire un site sur lequel l'utilisateur peut rechercher le manga qu'il 
-            souhaite et obtenir plus d'informations sur celui-ci.
-          </p>
-        </article>
-        <article class="Projet-Symfony-L2 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Site Symfony L2 deuxième semestre</h3>
-          <p class="ml-5">
-            Principe du projet : construction d'un site (sujet au choix) avec l'aide du framework 
-            symfony et de l'IDE PhpStorm. Mon sujet était de permettre à un utilisateur de créer 
-            ses propres listes d'animes/mangas pour suivre son avancement.
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Site VueJS L3 deuxième semestre</h3>
+          <p class="ml-5 print:text-xs">
+            - Principe du projet : A l'aide du framework VueJS et d'une ou plusieurs API (au choix). J'ai construit une interface 
+            pour une base de référencement de manga basé sur l'API <a href="https://api.mangadex.org/docs/" class="underline">MangaDex</a> afin de permettre aux utilisateurs 
+            d'effectuer des recherches sur des manga.
           </p>
         </article>
         <article class="Projet-Gamemaker-Clicker-L2 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Jeu Gamemaker clicker L2 deuxième semestre, En groupe de 2</h3>
-          <p class="ml-5">
-            Ensuite pour développer nos bases en gamemaker j'ai du recréer un jeu de mon choix. 
-            Mon choix s'est porté sur le jeu Cookie Clicker.
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Jeu Gamemaker clicker L2 deuxième semestre, En groupe de 2</h3>
+          <p class="ml-5 print:text-xs">
+            - Projet de création de jeu en sujet libre. Pour réaliser ce dernier j'ai porté mon choix sur <a href="#" class="underline">Cookie Clicker</a> (lien).
           </p>
         </article>
         <article class="Projet-Gamemaker-Breakout-L2 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Jeu Gamemaker Breakout L2 premier semestre</h3>
-          <p class="ml-5">
-            Principe du projet était de nous initier à l'outil gamemaker en créant un jeu du style Breakout.
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Jeu Gamemaker Casse brique L2 premier semestre</h3>
+          <p class="ml-5 print:text-xs">
+            - Initiation à l'utilisation du logiciel gamemaker en créant un jeu sur les bases du casse brique
           </p>
         </article>
         <article class="Projet-CV-L1 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Site CV L1 premier semestre</h3>
-          <p class="ml-5">
-            Pour vérifier nos bases en HTML/CSS j'ai du créer un site qui avait pour forme mon CV.
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Site CV L1 premier semestre</h3>
+          <p class="ml-5 print:text-xs">
+            - Pour vérifier nos bases en HTML/CSS j'ai du créer un site qui avait pour forme mon CV.
           </p>
         </article>
       </section>
       <section class="work-experience p-3">
-        <h1 class="work-experience-title font-mono m-5 text-3xl font-semibold flex justify-center xl:justify-start">Expérience Professionnelle</h1>
+        <h1 class="work-experience-title font-mono m-5 text-3xl font-semibold flex justify-center xl:justify-start print:text-base print:justify-start">Expérience Professionnelle</h1>
         <article class="Work-DSI-L2 pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Mairie de Lomme, Service de la Direction des Systèmes d'Information, 01/07/2022 à 29/07/2022</h3>
-          <ul class="ml-5 list-disc">
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Mairie de Lomme, Service de la Direction des Systèmes d'Information, 01/07/2022 à 29/07/2022</h3>
+          <ul class="ml-5 list-disc print:text-xs">
             <li class="ml-5 pt-1 pb-1">Gestion et analyse des incidents et maintenance corrective de 1er niveau.</li>
             <li class="ml-5 pt-1 pb-1">Gestion du matériels informatique (inventaire, maintenance préventive).</li>
-            <li class="ml-5 pt-1 pb-1">Installation et déménagement du matériel informatique.</li>
+            <li class="ml-5 pt-1 pb-1">Installation du matériel informatique.</li>
             <li class="ml-5 pt-1 pb-1">Installation et maintenance des logiciels.</li>
-            <li class="ml-5 pt-1 pb-1">Assistance et support technique (matériels et logiciels) auprès des utilisateurs.</li>
+            <li class="ml-5 pt-1 pb-1">Assistance et support technique (matériels et logiciels).</li>
           </ul>
         </article>
         <article class="Work-Region pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Hôtel de Région des Hauts de France, 02/02/2017 à 08/02/2017</h3>
-          <p class="ml-5">
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Hôtel de Région des Hauts de France, 02/02/2017 à 08/02/2017</h3>
+          <p class="ml-5 print:text-xs">
             Stage de découverte : aide à l'installation d'ordinateur, maintenance de plusieurs 
-            ordinateurs et imprimantes. En équipe de 2 minimum.
+            ordinateurs et imprimantes, en équipe.
           </p>
         </article>
       </section>
       <section class="school p-3">
-        <h1 class="school-title font-mono m-5 text-3xl font-semibold flex justify-center xl:justify-start">Formation Scolaire</h1>
+        <h1 class="school-title font-mono m-5 text-3xl font-semibold flex justify-center xl:justify-start print:text-base print:justify-start">Formation Scolaire</h1>
         <article class="school-EDN pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Université Catholique de Lille 2020-2023</h3>
-          <p class="ml-5">Licence 3 Sciences du Numérique</p>
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Université Catholique de Lille, Ecole du Numérique 2020-2023</h3>
+          <p class="ml-5 print:text-xs">Licence 3 Sciences du Numérique</p>
         </article>
         <article class="school-Gustave-Eiffel pl-5">
-          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3">Lycée Gustave Eiffel 2017-2020</h3>
-          <p class="ml-5">Bac Scientifiques</p>
+          <h3 class="font-mono font-semibold ml-5 pb-3 pt-3 print:text-sm">Lycée Gustave Eiffel 2017-2020</h3>
+          <p class="ml-5 print:text-xs">Bac Scientifiques</p>
         </article>
       </section>
     </div>

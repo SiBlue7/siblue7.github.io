@@ -649,6 +649,72 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
+@media print {
+  .print\:flex {
+    display: flex;
+  }
+
+  .print\:grid {
+    display: grid;
+  }
+
+  .print\:h-4 {
+    height: 1rem;
+  }
+
+  .print\:w-2\/5 {
+    width: 40%;
+  }
+
+  .print\:w-4 {
+    width: 1rem;
+  }
+
+  .print\:w-full {
+    width: 100%;
+  }
+
+  .print\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .print\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .print\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .print\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .print\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .print\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .print\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .print\:font-semibold {
+    font-weight: 600;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:m-4 {
     margin: 1rem;
