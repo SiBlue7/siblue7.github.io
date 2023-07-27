@@ -654,10 +654,6 @@ video {
 }
 
 @media print {
-  .print\:m-2 {
-    margin: 0.5rem;
-  }
-
   .print\:m-3 {
     margin: 0.75rem;
   }
