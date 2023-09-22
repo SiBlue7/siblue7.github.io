@@ -630,11 +630,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -731,6 +726,13 @@ video {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:m-4 {
     margin: 1rem;
@@ -758,5 +760,10 @@ video {
 
   .xl\:justify-start {
     justify-content: flex-start;
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
