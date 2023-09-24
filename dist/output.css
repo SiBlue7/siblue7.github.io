@@ -653,6 +653,10 @@ video {
     margin: 0.75rem;
   }
 
+  .print\:m-2 {
+    margin: 0.5rem;
+  }
+
   .print\:mb-1 {
     margin-bottom: 0.25rem;
   }
@@ -663,6 +667,10 @@ video {
 
   .print\:grid {
     display: grid;
+  }
+
+  .print\:hidden {
+    display: none;
   }
 
   .print\:h-36 {
@@ -699,6 +707,10 @@ video {
 
   .print\:pt-0 {
     padding-top: 0px;
+  }
+
+  .print\:pt-1 {
+    padding-top: 0.25rem;
   }
 
   .print\:text-5xl {
